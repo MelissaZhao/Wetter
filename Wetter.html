@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WDS20a</title>
+        <!--css stylesheet einbinden-->
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+
+    <body>
+        <h1>Wetter-App</h1>
+        <h2>Beispiel-App in Web-Programmieren WSDS20a</h2>
+        <select>
+            <option>Hamburg</option>
+            <option>Paris</option>
+            <option>New York</option>
+            <option>Sydney</option>
+            <option>Shanghai</option>
+            <option>Cape Town</option>
+        </select>
+        <br/>
+        <br/>
+        <input type="text" placeholder="Ort hinzufuegen">
+        <button id="search_btn">Suchen</button>
+        <br/>
+        <label>
+            Beschriftung 
+            <input type="checkbox" checked="true"/>
+        </label>
+        <br/>
+
+  
+        Fahrenheit
+        <input type="radio" name="temp"/>
+       
+        <br/>
+
+       
+        Celsius
+            <input type="radio" name="temp"/>
+        <br/>
+        
+
+        <p>
+            <h3>Berlin</h3>
+            <b>19 Grad</b>
+            <i>sonnig</i>
+            <!--Bild auf lockalem Dateisystem referenzierung-->
+            <img src="sun-line.png">
+        </p>
+        <p>
+            <h3>Basel</h3>
+            <b>21 Grad</b>
+            <i>heiter</i>
+            <img src="sun-fill.png">
+        
+        </p>
+        <p>
+            <h3>London</h3>
+            <b>9 Grad</b>
+            <i>regnerisch</i>
+            <img src="rainy-fill.png">
+        </p>
+        <br>
+        <a href="https://www.meteoblue.com/de/wetter/woche/basel_schweiz_2661604"> Gehen zu Wettersuche </a>
+
+        <div class ="weather_location">
+            <h3 class = "location">  Berlin </h3>
+            <span class ="temperature"> 19 Grad</span>
+            <span class ="condition"> sonnig</span>
+            <img src="sun-line.png">
+        </div>
+
+        <div class ="weather_location">
+            <h3 class = "location"> Basel</h3>
+            <span class ="temperature"> 14 Grad</span>
+            <span class ="condition"> heiter</span>
+            <img src="sun-fill.png">
+        </div>
+
+        <div class = "weather_location">
+            <h3 class = "location"> London</h3>
+            <span class ="temperature"> 9 Grad </span>
+            <span class ="condition"> regnerisch </span>
+            <img src="rainy-fill.png">
+        </div>
+
+        </p>
+    </body>
+</html>

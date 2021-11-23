@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    background-color:NONE;
+    background-image: url(Wetter.jpeg);
+    vertical-align: 50%;
+    margin: Zem;
+    color:white;
+    margin-left: 10%; 
+}      
+
+ h1{
+     font-size: bold;
+     color:rgb(255, 0, 76);
+     text-decoration:blink;
+     text-transform: uppercase
+    }
+h2{
+    font-size: bold;
+    color:rgba(23, 156, 245, 0.925);
+    text-decoration:none;
+    line-height: 200%; 
+}
+h3{
+    font-size: italic;
+    color:rgba(84, 245, 10, 0.952);
+    text-decoration:none;
+}
+
+
+
+/* id-Selektor */
+#search_btn{
+    background-color: lightskyblue;
+}
+
+#temp_control{
+    margin-bottom: 20px;
+}
+
+/* class-Selektor */
+
+
+.weather_list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.weather_location{
+    border: 2px solid silver;
+    border-radius: 1px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}   
+
+.location{
+    color:yellow;
+    font-size: 1em;
+    font-weight: bold;
+}  
+
+.weather_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temperature{
+    color:white;
+    font-weight: 300;
+}   
+.condition{
+    font-style: italic;
+    color: tomato;
+}   
